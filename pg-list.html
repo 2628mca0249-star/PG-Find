@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staynest - PG & Hostel</title>
+    <link rel="stylesheet" href="css/pg-style.css">
+</head>
+<body>
+    <nav class="navbar">
+
+    <a href="index.html" class="logo">
+        Stay<span>Nest</span>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pg-list.html" class="active">Find PG</a></li>
+        <li><a href="pg-details.html">PG Details</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#room-types">Room Types</a></li>
+    </ul>
+
+</nav>
+
+    <h1>Find your Perfect PG</h1>
+
+    <p>Find comfortable and affordable PGs near you</p>
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search PG by location...">
+
+<button onclick="searchPG()">Search</button>
+        </div>
+
+     <div class="pg-container">
+     <div class="pg-card">
+            <img src="images/pg2.jpg" alt="PG Room">
+            <h2>Sunshine Girls PG</h2>
+            <p>📍Near Kiet College</p>
+            <p>💰9000 / Month</p>
+            <p>🏠Room Type-Double Seater</p>
+            <p>🍽️Food Available</p>
+            <p>🔐Security</p>
+            <p>🛜Wifi Available</p>
+            <button onclick="viewDetails('Sunshine Girls PG')">
+    View Details
+</button>
+        </div>
+        <div class="pg-card">
+            <img src="images/OIP (1).webp" alt="PG Room">
+            <h2>Comfort Stay Boys PG</h2>
+            <p>📍Muradnagar</p>
+            <p>💰8000 / Month</p>
+            <P>🏠Room Type-Double Seater</P>
+            <p>🍽️Food Available</p>
+            <p>🔐Security</p>
+            <p>🛜Wifi Available</p>
+            <button onclick="viewDetails('Comfort Stay Boys PG')">
+    View Details
+</button>
+        </div>
+        <div class="pg-card">
+            <img src="images/OIP.webp" alt="PG Room">
+            <h2>Happy Home Girls PG</h2>
+            <p>📍Meerut Road</p>
+            <p>💰6000 / Month</p>
+            <p>🏠Room Type-Single Seater</p>
+            <p>🍽️Food Available</p>
+            <p>🔐Security</p>
+            <p>🛜Wifi Available</p>
+            <button onclick="viewDetails('Happy Home Girls PG')">
+    View Details
+</button>
+        </div>
+        <div class="pg-card">
+            <img src="images/pg4.jpg" alt="PG Room">
+            <h2>Green view Girls PG</h2>
+            <p>📍Mohanagar</p>
+            <p>💰6800 / Month</p>
+            <p>🏠Room Type-Triple Seater</p>
+            <p>🍽️Food Available</p>
+            <p>🔐Security</p>
+            <p>🛜Wifi Available</p>
+            <button onclick="viewDetails('Green view Girls PG')">
+    View Details
+</button>
+        </div>
+        <div class="pg-card">
+            <img src="images/pg5.webp" alt="PG Room">
+            <h2>Student Nest Girls PG</h2>
+            <p>📍Indirapuram</p>
+            <p>💰7500 / Month</p>
+            <p>🏠Room Type-Triple Seater</p>
+            <p>🍽️Food Available</p>
+            <p>🔐Security</p>
+            <p>🛜Wifi Available</p>
+            <button onclick="viewDetails('Student Nest Girls PG')">
+    View Details
+</button>
+        </div>
+        <div class="pg-card">
+            <img src="images/single-room-2.jpg" alt="PG Room">
+            <h2>Royal Residency Boys PG</h2>
+            <p>📍Oppsite Kiet College</p>
+            <p>💰5500 / Month</p>
+            <p>🏠Room Type-Single Seater</p>
+            <p>🍽️Food Available</p>
+            <p>🔐Security</p>
+            <p>🛜Wifi Available</p>
+            <button onclick="viewDetails('Royal Residency Boys PG')">
+    View Details
+</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
